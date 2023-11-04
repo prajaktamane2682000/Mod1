@@ -1,0 +1,318 @@
+body{
+    scroll-behavior: smooth;
+
+}
+#nav {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav1 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    width: 250px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+#nav3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #2F80ED;
+}
+
+#nav3>h5 {
+    display: flex;
+
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 0px;
+}
+
+#sec2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    background-color: #FFF;
+    ;
+}
+
+#about-course {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 400px;
+
+}
+
+#form {
+    width: 400px;
+    height: 450px;
+    border: none;
+}
+
+#bogus {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+
+
+}
+
+#student {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 350px;
+    border-radius: 23px;
+    background: #FFF;
+    box-shadow: 0px 2px 54px 0px rgba(0, 0, 0, 0.12);
+}
+
+#basic-addon1 {
+    background-color: #FAFAFA;
+
+
+}
+
+.input-group {
+    border: none;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border-radius: 18px;
+    background: #FFF;
+
+
+    box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
+}
+
+#form>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    background-color: #ECF8FF;
+}
+
+#beginner {
+    width: 450px;
+    height: 500px;
+    background-color: white;
+}
+
+#gaurrenty {
+    display: flex;
+    width: 118px;
+    height: 20px;
+    background-color: #E0F3FF;
+}
+
+#text {
+    color: #1D78B0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#text1 {
+    display: flex;
+    justify-content: center;
+    color: #565656;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+
+}
+
+#btn1 {
+    width: 150px;
+    height: 45px;
+    border-radius: 9px;
+}
+
+#companies {
+    width: 100%;
+    height: 794px;
+    margin-bottom: 100px;
+
+}
+
+#abt-companies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#top-companies {
+    display: flex;
+    width: 1224px;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    gap: 54px;
+    margin: auto;
+    margin-bottom: 100px;
+    height: 60px;
+
+}
+
+#images {
+    width: 148.688px;
+    height: 32.607px;
+
+
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#btn3 {
+    height: 50px;
+    width: 200px;
+    background-color: #2F80ED;
+    color: white;
+    border-radius: 9px;
+    border: none;
+
+}
+
+#Alumini {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F4F4F4;
+}
+
+#about-alumini {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 107px 138px 107px;
+    width: 1400px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+
+}
+
+#cards {
+    display: flex;
+    width: 400px;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#cards1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 400px;
+    height: 600px;
+
+}
+
+#card1-1 {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid #D7D7D7;
+    background-color: white;
+}
+
+#div1 {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+
+}
+
+#div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#div3 {
+    display: flex;
+    padding-left: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+    #nav,
+    #sec2,
+    #main,
+    #companies,
+    #Alumini{
+        width: 98% !important;
+        margin: auto !important;
+    }
+  }
